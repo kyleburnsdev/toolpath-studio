@@ -1,6 +1,6 @@
 # Hugo Blog Authoring Guide
 
-This guide explains how to create and author blog posts for the Level Up Lab blog using Hugo.
+This guide explains how to create and author blog posts for the Toolpath Studio blog using Hugo.
 
 ## Table of Contents
 
@@ -405,7 +405,7 @@ The post won't appear in production builds until the date arrives (unless you us
 
 ### Cross-Platform Integration
 
-Remember to integrate your blog with other Level Up Lab content:
+Remember to integrate your blog with other Toolpath Studio content:
 
 1. **Link to YouTube videos**: Embed or link to related video content
 2. **Reference podcast episodes**: Add links to podcast discussions
@@ -494,4 +494,4 @@ Once you've authored your content, see the [PUBLISHING_GUIDE.md](PUBLISHING_GUID
 - Check the [Hugo Documentation](https://gohugo.io/documentation/)
 - Visit the [Hugo Discourse Forum](https://discourse.gohugo.io/)
 - Review existing blog posts in `content/blog/posts/` for examples
-- Join the Level Up Lab Discord community for support
+- Join the Toolpath Studio Discord community for support

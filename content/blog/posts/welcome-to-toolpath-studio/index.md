@@ -1,8 +1,8 @@
 ---
-title: "Welcome to Level Up Lab"
+title: "Welcome to Toolpath Studio"
 date: 2024-01-15T10:00:00-05:00
 draft: true
-description: "An introduction to Level Up Lab - a multi-channel content platform for learning and sharing knowledge on the maker journey"
+description: "An introduction to Toolpath Studio - a multi-channel content platform for learning and sharing knowledge on the maker journey"
 categories: ["Updates"]
 tags: ["introduction", "maker", "blog"]
 author: "Kyle Burns"
@@ -11,11 +11,11 @@ featured_image: ""
 
 ## Welcome!
 
-Welcome to Level Up Lab, a multi-channel content platform dedicated to documenting, teaching, and engaging with others on maker topics. Whether you're interested in electronics, programming, woodworking, or any other maker discipline, this is a place to learn, share, and grow together.
+Welcome to Toolpath Studio, a multi-channel content platform dedicated to documenting, teaching, and engaging with others on maker topics. Whether you're interested in electronics, programming, woodworking, or any other maker discipline, this is a place to learn, share, and grow together.
 
-## What is Level Up Lab?
+## What is Toolpath Studio?
 
-Level Up Lab is more than just a blog—it's a comprehensive learning platform that spans multiple channels:
+Toolpath Studio is more than just a blog—it's a comprehensive learning platform that spans multiple channels:
 
 - **YouTube**: Video tutorials and project walkthroughs
 - **Podcast**: Deep-dive discussions and interviews
@@ -43,7 +43,7 @@ Project progress updates and announcements about new content across all platform
 
 ## The Philosophy
 
-The core philosophy of Level Up Lab is **learning by doing**. Every project is an opportunity to learn something new, whether it's a new skill, tool, or technique. By documenting and sharing these experiences, we can:
+The core philosophy of Toolpath Studio is **learning by doing**. Every project is an opportunity to learn something new, whether it's a new skill, tool, or technique. By documenting and sharing these experiences, we can:
 
 1. **Help others** avoid the same mistakes
 2. **Build a community** of like-minded makers
@@ -52,7 +52,7 @@ The core philosophy of Level Up Lab is **learning by doing**. Every project is a
 
 ## Cross-Platform Integration
 
-All content on Level Up Lab is designed to work together:
+All content on Toolpath Studio is designed to work together:
 
 - Blog posts link to relevant YouTube videos
 - Videos reference detailed blog tutorials

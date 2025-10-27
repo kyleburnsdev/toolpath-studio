@@ -1,4 +1,4 @@
-# Level Up Lab
+# Toolpath Studio
 
 A multi-channel content platform for learning and sharing knowledge on my journey as a "maker of things".
 

@@ -1,7 +1,7 @@
 baseURL = 'https://kyleburnsdev.github.io/maker-learn-and-share/'
 languageCode = 'en-us'
-title = 'Level Up Lab'
-theme = 'leveluplab'
+title = 'Toolpath Studio'
+theme = 'toolpathstudio'
 
 # Content directory
 contentDir = 'content'
