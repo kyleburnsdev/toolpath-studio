@@ -22,17 +22,26 @@ Guidelines for maintaining consistent brand identity across all platforms.
 
 ### Colors
 [Define your color palette]
-- Primary Color: 
-- Secondary Color: 
-- Accent Color: 
-- Text Color: 
-- Background Color: 
+- Primary Color: #0078BF (Marine Blue)
+- Secondary Color: #9B9EA0 (Ash Gray)
+- Accent Color: #D9772B (Burnt Orange)
+- Text Color: #2C2C2C (Charcoal Black)
+- Background Color: #F5F5F5 (Soft Gray)
 
 ### Typography
-[Define your font choices]
-- Headings: 
-- Body Text: 
-- Accents: 
+- Headings: Montserrat
+  - Style: Bold or Semi-Bold
+  - Sizes: H1: 36-48px, H2: 28-32px, H3: 22-24px
+  - Color: Charcoal Black or Marine Blue (for emphasis)
+- Body Text: Inter
+  - Style: Regular or Medium
+  - Size: 16-18px
+  - Line Height: 1.5-1.6
+  - Color: Charcoal Black
+- Accent Text/UI Label: Inter
+  - Style: Medium or Semi-Bold
+  - Size: 14-16px
+  - Color: Burnt Orange or Ash Gray 
 
 ### Logo and Graphics
 - Consistent logo usage across platforms
