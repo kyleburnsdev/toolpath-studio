@@ -1,7 +1,7 @@
 baseURL = 'https://kyleburnsdev.github.io/maker-learn-and-share/'
 languageCode = 'en-us'
 title = 'Level Up Lab'
-theme = ''  # Add your theme name here when you choose one
+theme = 'leveluplab'
 
 # Content directory
 contentDir = 'content'

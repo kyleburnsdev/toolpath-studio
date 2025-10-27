@@ -1,0 +1,57 @@
+{{ define "main" }}
+<div class="content-wrapper">
+  <section class="hero">
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Params.description }}</p>
+  </section>
+  
+  {{ .Content }}
+  
+  <section aria-labelledby="recent-posts-heading">
+    <h2 id="recent-posts-heading">Recent Posts</h2>
+    {{ $pages := where site.RegularPages "Type" "in" (slice "blog" "post") }}
+    {{ if $pages }}
+    <ul class="posts-list">
+      {{ range first 10 $pages }}
+      <li class="post-item">
+        <article>
+          <h2>
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          </h2>
+          <div class="post-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ with .Params.author }} · by {{ . }}{{ end }}
+          </div>
+          {{ if .Description }}
+          <p>{{ .Description }}</p>
+          {{ else }}
+          {{ .Summary }}
+          {{ end }}
+          {{ if or .Params.categories .Params.tags }}
+          <div class="post-meta">
+            {{ with .Params.categories }}
+            <div class="post-categories">
+              {{ range . }}
+              <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" class="category-badge">{{ . }}</a>
+              {{ end }}
+            </div>
+            {{ end }}
+            {{ with .Params.tags }}
+            <div class="post-tags">
+              {{ range . }}
+              <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="tag-badge">{{ . }}</a>
+              {{ end }}
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+        </article>
+      </li>
+      {{ end }}
+    </ul>
+    {{ else }}
+    <p>No posts yet. Check back soon!</p>
+    {{ end }}
+  </section>
+</div>
+{{ end }}

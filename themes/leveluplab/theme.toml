@@ -1,0 +1,19 @@
+name = 'Level Up Lab Theme'
+license = 'MIT'
+licenselink = 'https://github.com/kyleburnsdev/level-up-lab/blob/main/LICENSE'
+description = 'A custom Hugo theme for Level Up Lab with WCAG accessibility, semantic markup, and branding guidelines'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/kyleburnsdev/level-up-lab'
+
+# If you have a running demo of the theme
+demosite = 'https://kyleburnsdev.github.io/maker-learn-and-share/'
+
+# Taxonomy terms
+tags = ['blog', 'maker', 'accessible', 'responsive']
+features = ['WCAG 2.1 AA compliant', 'semantic HTML5', 'responsive design', 'custom branding', 'SEO optimized']
+
+# If the theme has a single author
+[author]
+  name = 'Kyle Burns'
+  homepage = 'https://github.com/kyleburnsdev'

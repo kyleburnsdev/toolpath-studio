@@ -1,0 +1,20 @@
+<div class="footer-container">
+  <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. All rights reserved.</p>
+  <p>{{ .Site.Params.description }}</p>
+  {{ if .Site.Params.social }}
+  <div class="social-links" role="navigation" aria-label="Social media links">
+    {{ with .Site.Params.social.youtube }}
+      <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="YouTube channel">YouTube</a>
+    {{ end }}
+    {{ with .Site.Params.social.facebook }}
+      <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Facebook page">Facebook</a>
+    {{ end }}
+    {{ with .Site.Params.social.discord }}
+      <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Discord server">Discord</a>
+    {{ end }}
+    {{ with .Site.Params.social.github }}
+      <a href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>

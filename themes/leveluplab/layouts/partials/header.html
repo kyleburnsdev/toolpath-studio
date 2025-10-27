@@ -1,0 +1,10 @@
+<div class="header-container">
+  <div class="site-logo">
+    <a href="{{ .Site.BaseURL }}" aria-label="Home - {{ site.Title }}">
+      <img src="{{ .Site.BaseURL }}logos/png/level-up-lab-light.png" alt="Level Up Lab Logo" />
+    </a>
+  </div>
+  <nav aria-label="Main navigation">
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  </nav>
+</div>

@@ -1,0 +1,55 @@
+{{ define "main" }}
+<div class="content-wrapper">
+  <header>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}
+    <p>{{ . }}</p>
+    {{ end }}
+  </header>
+  
+  {{ .Content }}
+  
+  {{ if .Pages }}
+  <ul class="posts-list">
+    {{ range .Pages }}
+    <li class="post-item">
+      <article>
+        <h2>
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </h2>
+        <div class="post-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+          {{ with .Params.author }} · by {{ . }}{{ end }}
+        </div>
+        {{ if .Description }}
+        <p>{{ .Description }}</p>
+        {{ else }}
+        {{ .Summary }}
+        {{ end }}
+        {{ if or .Params.categories .Params.tags }}
+        <div class="post-meta">
+          {{ with .Params.categories }}
+          <div class="post-categories">
+            {{ range . }}
+            <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" class="category-badge">{{ . }}</a>
+            {{ end }}
+          </div>
+          {{ end }}
+          {{ with .Params.tags }}
+          <div class="post-tags">
+            {{ range . }}
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="tag-badge">{{ . }}</a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+      </article>
+    </li>
+    {{ end }}
+  </ul>
+  
+  {{ template "_internal/pagination.html" . }}
+  {{ end }}
+</div>
+{{ end }}
