@@ -238,7 +238,7 @@ You **must** install a theme before the site will render properly.
 
 1. **PaperMod** - Clean, fast, modern
    ```bash
-   git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+   git submodule add --depth=1 --branch master https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
    ```
 
 2. **Blowfish** - Highly customizable

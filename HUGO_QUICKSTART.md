@@ -34,7 +34,7 @@ Before you can preview your site, you need to install a theme:
 
 ```bash
 # Example: Install PaperMod theme
-git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+git submodule add --depth=1 --branch master https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 
 # Update hugo.toml to use the theme
 # Change: theme = ''

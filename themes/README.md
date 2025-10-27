@@ -42,7 +42,7 @@ Download a theme ZIP file and extract it to this directory.
 - [GitHub](https://github.com/adityatelange/hugo-PaperMod)
 
 ```bash
-git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+git submodule add --depth=1 --branch master https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 ```
 
 ### Blowfish

@@ -150,7 +150,7 @@ The Level Up Lab blog has been successfully configured with Hugo static site gen
 - ✅ **Monitoring**: Deployment status visible in GitHub Actions
 
 ### Documentation
-- ✅ **Comprehensive**: 40+ KB of documentation covering all aspects
+- ✅ **Comprehensive**: Over 40 KB of documentation covering all aspects
 - ✅ **Progressive**: Quick start → Detailed guides → Visual references
 - ✅ **Practical**: Examples, code snippets, and troubleshooting
 - ✅ **Accessible**: Clear structure with tables of contents
@@ -222,7 +222,7 @@ Once a theme is installed, test the setup:
 brew install hugo  # or equivalent for your OS
 
 # Install a theme (example: PaperMod)
-git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+git submodule add --depth=1 --branch master https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 
 # Update hugo.toml
 # Change: theme = ''
