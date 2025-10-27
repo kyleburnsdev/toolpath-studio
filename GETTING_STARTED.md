@@ -1,6 +1,6 @@
-# Getting Started with Multi-Channel Content
+# Getting Started with Level Up Lab
 
-Welcome to your multi-channel content platform! This guide will help you start creating and sharing content across YouTube, podcast, blog, and social media platforms.
+Welcome to Level Up Lab! This guide will help you start creating and sharing content across YouTube, podcast, blog, and social media platforms.
 
 ## Quick Start
 

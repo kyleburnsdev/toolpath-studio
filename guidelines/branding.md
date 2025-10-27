@@ -1,8 +1,11 @@
 # Branding and Consistency Guidelines
 
-Guidelines for maintaining consistent brand identity across all platforms.
+Guidelines for maintaining consistent brand identity across all platforms for **Level Up Lab**.
 
 ## Brand Identity
+
+### Brand Name
+**Level Up Lab** - The name for the blog, YouTube channel, podcast, and all content platforms.
 
 ### Core Values
 - **Learning**: Continuous growth and education
@@ -44,40 +47,63 @@ Guidelines for maintaining consistent brand identity across all platforms.
   - Color: Burnt Orange or Ash Gray 
 
 ### Logo and Graphics
-- Consistent logo usage across platforms
-- Recognizable thumbnail style for videos
-- Consistent graphics for social media
+
+#### Logo Files
+Level Up Lab has official logos available in two versions (located in the repository at `logos/png/`):
+- **Light Background Version**: `logos/png/level-up-lab-light.png`
+  - Use on light or white backgrounds
+  - Best for blog posts, social media posts with light backgrounds, and printed materials
+- **Dark Background Version**: `logos/png/level-up-lab-dark.png`
+  - Use on dark backgrounds
+  - Best for video thumbnails, dark-themed websites, and social media posts with dark backgrounds
+
+#### Logo Usage Guidelines
+- Always use the appropriate version (light or dark) based on the background
+- Maintain clear space around the logo (minimum padding equal to 10% of logo height on all sides)
+- Do not stretch, distort, or alter the logo proportions
+- Do not change the logo colors
+- Do not add effects (shadows, gradients, etc.) to the logo
+- Use the logo at sufficient size to maintain readability (minimum width: 200px for digital)
+
+#### Additional Visual Guidelines
+- Consistent logo usage across all platforms
+- Recognizable thumbnail style for videos featuring the Level Up Lab logo
+- Consistent graphics for social media incorporating brand colors and logo
 - Professional but approachable aesthetic
 
 ## Platform-Specific Branding
 
 ### YouTube
-- Consistent intro/outro (if used)
-- Recognizable thumbnail template
-- Consistent video description format
-- Channel banner and profile image
-- Playlist organization
+- Channel name: "Level Up Lab"
+- Consistent intro/outro (if used) featuring Level Up Lab branding
+- Recognizable thumbnail template incorporating the Level Up Lab logo
+- Consistent video description format including Level Up Lab tagline
+- Channel banner and profile image using official Level Up Lab logo (appropriate version)
+- Playlist organization by topic/series
 
 ### Podcast
-- Professional cover art
-- Consistent intro/outro music
+- Podcast name: "Level Up Lab Podcast"
+- Professional cover art featuring the Level Up Lab logo
+- Consistent intro/outro music with Level Up Lab mention
 - Recognizable episode format
-- Show description and branding
-- Episode artwork consistency
+- Show description emphasizing Level Up Lab brand and mission
+- Episode artwork consistency with Level Up Lab visual identity
 
 ### Blog
-- Consistent header and layout
+- Blog name: "Level Up Lab Blog"
+- Consistent header and layout featuring Level Up Lab logo
 - Recognizable post format
-- Branded featured images
-- Consistent author bio
-- Signature style and tone
+- Branded featured images using Level Up Lab colors and style
+- Consistent author bio mentioning Level Up Lab
+- Signature style and tone reflecting Level Up Lab values
 
 ### Social Media
-- Consistent profile images across platforms
-- Similar bios and descriptions
+- Profile name: "Level Up Lab" across all platforms
+- Consistent profile images using appropriate Level Up Lab logo version
+- Similar bios and descriptions emphasizing Level Up Lab mission
 - Recognizable post formatting
-- Consistent hashtag usage
-- Cross-platform visual consistency
+- Consistent hashtag usage (#LevelUpLab, #LevelUpYourSkills)
+- Cross-platform visual consistency with Level Up Lab branding
 
 ## Content Branding
 
@@ -102,11 +128,12 @@ Guidelines for maintaining consistent brand identity across all platforms.
 - [Community message]
 
 ### Taglines
-- [Main tagline]
-- [Platform-specific variations]
+- "Level Up Lab - Where makers level up their skills"
+- "Learning, making, and leveling up together"
+- Platform-specific variations can emphasize different aspects while maintaining the core brand
 
 ### Bio Template
-"[Your name] - Maker, learner, and sharer. Join me on my journey learning [topics]. Find tutorials on YouTube, discussions on the podcast, and community on Discord and Facebook. Let's make things together!"
+"Welcome to Level Up Lab! Join me on my journey learning [topics] and leveling up my maker skills. Find tutorials on YouTube, discussions on the podcast, and community on Discord and Facebook. Let's make things and level up together!"
 
 ## Platform Links
 
