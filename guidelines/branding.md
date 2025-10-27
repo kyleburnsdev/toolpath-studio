@@ -49,17 +49,17 @@ Guidelines for maintaining consistent brand identity across all platforms for **
 ### Logo and Graphics
 
 #### Logo Files
-Level Up Lab has official logos available in two versions:
-- **Light Background Version**: `/logos/png/level-up-lab-light.png`
+Level Up Lab has official logos available in two versions (located in the repository at `logos/png/`):
+- **Light Background Version**: `logos/png/level-up-lab-light.png`
   - Use on light or white backgrounds
   - Best for blog posts, social media posts with light backgrounds, and printed materials
-- **Dark Background Version**: `/logos/png/level-up-lab-dark.png`
+- **Dark Background Version**: `logos/png/level-up-lab-dark.png`
   - Use on dark backgrounds
   - Best for video thumbnails, dark-themed websites, and social media posts with dark backgrounds
 
 #### Logo Usage Guidelines
 - Always use the appropriate version (light or dark) based on the background
-- Maintain clear space around the logo (minimum padding equal to the height of the "L" in Level)
+- Maintain clear space around the logo (minimum padding equal to 10% of logo height on all sides)
 - Do not stretch, distort, or alter the logo proportions
 - Do not change the logo colors
 - Do not add effects (shadows, gradients, etc.) to the logo
