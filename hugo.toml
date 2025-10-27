@@ -30,7 +30,7 @@ paginatePath = 'page'
   
   # Social links
   [params.social]
-    youtube = ''  # Add your YouTube channel URL
+    youtube = 'https://www.youtube.com/channel/UCqzxSXgRG4fFjV2s3x65dPQ'  # Add your YouTube channel URL
     facebook = ''  # Add your Facebook URL
     discord = ''   # Add your Discord invite URL
     github = 'https://github.com/kyleburnsdev'
