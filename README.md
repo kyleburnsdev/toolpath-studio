@@ -1,4 +1,4 @@
-# Maker Learn and Share
+# Level Up Lab
 
 A multi-channel content platform for learning and sharing knowledge on my journey as a "maker of things".
 
