@@ -65,11 +65,39 @@ Level Up Lab has official logos available in two versions (located in the reposi
 - Do not add effects (shadows, gradients, etc.) to the logo
 - Use the logo at sufficient size to maintain readability (minimum width: 200px for digital)
 
+#### Geometric Shapes and Hexagon Theme
+Hexagons are a recurring visual theme throughout the Level Up Lab environment, from the hexagonal ceiling lights to the hexagon acoustic tiles visible in video backgrounds. When geometric shapes are used to enhance presentations, hexagons should be the preferred choice to maintain visual consistency with the lab aesthetic.
+
+**Hexagon Usage Guidelines:**
+- **When to Use**: Incorporate hexagons judiciously when geometric shapes enhance the presentation
+  - Video thumbnails and graphics
+  - Social media post designs
+  - Blog post featured images
+  - Presentation slides and overlays
+  - Decorative elements in graphics
+  - Grid patterns and backgrounds
+  - Infographic design elements
+- **How to Use**:
+  - Use hexagons as subtle background patterns or decorative accents
+  - Create hexagonal frames or borders for highlighting content
+  - Arrange hexagons in honeycomb patterns for visual interest
+  - Scale hexagons appropriately - they should enhance, not overwhelm the content
+  - Maintain consistent hexagon proportions (regular hexagons with equal sides)
+  - Use hexagons in brand colors for consistency
+- **When NOT to Use**:
+  - Don't force hexagons into every design - use them where they add value
+  - Avoid using hexagons when they detract from content clarity
+  - Don't use so many hexagons that they become distracting
+  - Skip hexagons in minimal or text-focused designs where simplicity is key
+
+The hexagon theme helps create a unique, recognizable visual identity while maintaining professionalism and clarity.
+
 #### Additional Visual Guidelines
 - Consistent logo usage across all platforms
 - Recognizable thumbnail style for videos featuring the Level Up Lab logo
 - Consistent graphics for social media incorporating brand colors and logo
 - Professional but approachable aesthetic
+- Judicious use of hexagon geometric theme to enhance visual presentations
 
 ## Platform-Specific Branding
 
