@@ -1,6 +1,6 @@
 # Toolpath Studio
 
-A multi-channel content platform for learning and sharing knowledge on my journey as a "maker of things".
+Toolpath Studio is your go-to space for learning and leveling up in the world of digital fabrication. From CNC milling and 3D printing to laser engraving and vinyl cutting, we explore the tools, techniques, and workflows that bring ideas to life. Whether you’re just starting your maker journey or looking to share your own tips, this community is all about building, experimenting, and growing together - one toolpath at a time.
 
 ## Project Overview
 
