@@ -1,6 +1,6 @@
 ---
 title: "Welcome to Toolpath Studio"
-date: 2024-01-15T10:00:00-05:00
+date: 2025-10-27T10:00:00-05:00
 draft: false
 description: "An introduction to Toolpath Studio - building, experimenting, and growing together"
 categories: ["Updates"]
@@ -94,6 +94,3 @@ Stay tuned for upcoming posts on:
 - Essential tools for makers
 - Project planning and documentation
 
----
-
-*This is an example post demonstrating the Hugo blog structure. Delete or modify this post as needed.*
