@@ -16,7 +16,28 @@ This project develops and manages content across multiple platforms to document,
 - **Facebook**: Community updates and discussion threads
 - **Discord**: Real-time community interaction and support
 - **Forums**: In-depth technical discussions and troubleshooting
-- **Blog Platform**: Written guides, project documentation, and reflections
+- **Blog Platform**: Written guides, project documentation, and reflections (Hugo-powered static site)
+
+## Hugo Blog
+
+The blog is set up with Hugo static site generator for publishing to GitHub Pages. 
+
+**Quick Start:**
+- Read the [HUGO_QUICKSTART.md](HUGO_QUICKSTART.md) for a quick introduction
+- See [AUTHORING_GUIDE.md](AUTHORING_GUIDE.md) for complete authoring instructions
+- See [PUBLISHING_GUIDE.md](PUBLISHING_GUIDE.md) for deployment instructions
+
+**Key Commands:**
+```bash
+# Create a new blog post
+hugo new content/blog/posts/my-post.md
+
+# Preview locally
+hugo server -D
+
+# Publish (automatic via GitHub Actions on push to main)
+git push origin main
+```
 
 ## Content Strategy
 
