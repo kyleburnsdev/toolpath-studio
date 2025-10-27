@@ -1,8 +1,8 @@
 ---
 title: "Welcome to Toolpath Studio"
 date: 2024-01-15T10:00:00-05:00
-draft: true
-description: "An introduction to Toolpath Studio - a multi-channel content platform for learning and sharing knowledge on the maker journey"
+draft: false
+description: "An introduction to Toolpath Studio - building, experimenting, and growing together"
 categories: ["Updates"]
 tags: ["introduction", "maker", "blog"]
 author: "Kyle Burns"
@@ -11,11 +11,11 @@ featured_image: ""
 
 ## Welcome!
 
-Welcome to Toolpath Studio, a multi-channel content platform dedicated to documenting, teaching, and engaging with others on maker topics. Whether you're interested in electronics, programming, woodworking, or any other maker discipline, this is a place to learn, share, and grow together.
+Toolpath Studio is your go-to space for learning and leveling up in the world of digital fabrication. From CNC milling and 3D printing to laser engraving and vinyl cutting, we explore the tools, techniques, and workflows that bring ideas to life. Whether you’re just starting your maker journey or looking to share your own tips, this community is all about building, experimenting, and growing together - one toolpath at a time.
 
 ## What is Toolpath Studio?
 
-Toolpath Studio is more than just a blog—it's a comprehensive learning platform that spans multiple channels:
+Toolpath Studio is more than just a blog - it's a comprehensive learning platform that spans multiple channels:
 
 - **YouTube**: Video tutorials and project walkthroughs
 - **Podcast**: Deep-dive discussions and interviews
