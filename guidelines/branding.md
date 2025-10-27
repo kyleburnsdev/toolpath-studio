@@ -69,7 +69,7 @@ Level Up Lab has official logos available in two versions (located in the reposi
 Hexagons are a recurring visual theme throughout the Level Up Lab environment, from the hexagonal ceiling lights to the hexagon acoustic tiles visible in video backgrounds. When geometric shapes are used to enhance presentations, hexagons should be the preferred choice to maintain visual consistency with the lab aesthetic.
 
 **Hexagon Usage Guidelines:**
-- **When to Use**: Incorporate hexagons judiciously when geometric shapes enhance the presentation
+- **When to Use**: Incorporate hexagons judiciously when geometric shapes enhance the presentation, such as when creating visual hierarchy, grouping related content, or adding visual interest to otherwise plain backgrounds
   - Video thumbnails and graphics
   - Social media post designs
   - Blog post featured images
@@ -81,7 +81,7 @@ Hexagons are a recurring visual theme throughout the Level Up Lab environment, f
   - Use hexagons as subtle background patterns or decorative accents
   - Create hexagonal frames or borders for highlighting content
   - Arrange hexagons in honeycomb patterns for visual interest
-  - Scale hexagons appropriately - they should enhance, not overwhelm the content
+  - Scale hexagons appropriately - they should occupy no more than 30-40% of the design area and remain secondary to the main content
   - Maintain consistent hexagon proportions (regular hexagons with equal sides)
   - Use hexagons in brand colors for consistency
 - **When NOT to Use**:
