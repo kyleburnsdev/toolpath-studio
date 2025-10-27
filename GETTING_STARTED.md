@@ -1,6 +1,6 @@
-# Getting Started with Level Up Lab
+# Getting Started with Toolpath Studio
 
-Welcome to Level Up Lab! This guide will help you start creating and sharing content across YouTube, podcast, blog, and social media platforms.
+Welcome to Toolpath Studio! This guide will help you start creating and sharing content across YouTube, podcast, blog, and social media platforms.
 
 ## Quick Start
 

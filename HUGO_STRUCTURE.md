@@ -1,6 +1,6 @@
 # Hugo Blog Structure Overview
 
-This document provides a visual overview of the Hugo blog setup for Level Up Lab.
+This document provides a visual overview of the Hugo blog setup for Toolpath Studio.
 
 ## Directory Structure
 

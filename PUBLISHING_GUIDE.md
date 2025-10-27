@@ -669,7 +669,7 @@ For publishing issues:
 2. Visit [Hugo Discourse](https://discourse.gohugo.io/)
 3. Review [GitHub Pages Status](https://www.githubstatus.com/)
 4. Check workflow logs in Actions tab
-5. Join the Level Up Lab community for help
+5. Join the Toolpath Studio community for help
 
 ---
 
