@@ -1,11 +1,11 @@
 # Branding and Consistency Guidelines
 
-Guidelines for maintaining consistent brand identity across all platforms for **Level Up Lab**.
+Guidelines for maintaining consistent brand identity across all platforms for **Toolpath Studio**.
 
 ## Brand Identity
 
 ### Brand Name
-**Level Up Lab** - The name for the blog, YouTube channel, podcast, and all content platforms.
+**Toolpath Studio** - The name for the blog, YouTube channel, podcast, and all content platforms.
 
 ### Core Values
 - **Learning**: Continuous growth and education
@@ -49,11 +49,11 @@ Guidelines for maintaining consistent brand identity across all platforms for **
 ### Logo and Graphics
 
 #### Logo Files
-Level Up Lab has official logos available in two versions (located in the repository at `logos/png/`):
-- **Light Background Version**: `logos/png/level-up-lab-light.png`
+Toolpath Studio has official logos available in two versions (located in the repository at `logos/png/`):
+- **Light Background Version**: `logos/png/toolpath-studio-light.png`
   - Use on light or white backgrounds
   - Best for blog posts, social media posts with light backgrounds, and printed materials
-- **Dark Background Version**: `logos/png/level-up-lab-dark.png`
+- **Dark Background Version**: `logos/png/toolpath-studio-dark.png`
   - Use on dark backgrounds
   - Best for video thumbnails, dark-themed websites, and social media posts with dark backgrounds
 
@@ -66,7 +66,7 @@ Level Up Lab has official logos available in two versions (located in the reposi
 - Use the logo at sufficient size to maintain readability (minimum width: 200px for digital)
 
 #### Geometric Shapes and Hexagon Theme
-Hexagons are a recurring visual theme throughout the Level Up Lab environment, from the hexagonal ceiling lights to the hexagon acoustic tiles visible in video backgrounds. When geometric shapes are used to enhance presentations, hexagons should be the preferred choice to maintain visual consistency with the lab aesthetic.
+Hexagons are a recurring visual theme throughout the Toolpath Studio environment, from the hexagonal ceiling lights to the hexagon acoustic tiles visible in video backgrounds. When geometric shapes are used to enhance presentations, hexagons should be the preferred choice to maintain visual consistency with the lab aesthetic.
 
 **Hexagon Usage Guidelines:**
 - **When to Use**: Incorporate hexagons judiciously when geometric shapes enhance the presentation, such as when creating visual hierarchy, grouping related content, or adding visual interest to otherwise plain backgrounds
@@ -94,7 +94,7 @@ The hexagon theme helps create a unique, recognizable visual identity while main
 
 #### Additional Visual Guidelines
 - Consistent logo usage across all platforms
-- Recognizable thumbnail style for videos featuring the Level Up Lab logo
+- Recognizable thumbnail style for videos featuring the Toolpath Studio logo
 - Consistent graphics for social media incorporating brand colors and logo
 - Professional but approachable aesthetic
 - Judicious use of hexagon geometric theme to enhance visual presentations
@@ -102,36 +102,36 @@ The hexagon theme helps create a unique, recognizable visual identity while main
 ## Platform-Specific Branding
 
 ### YouTube
-- Channel name: "Level Up Lab"
-- Consistent intro/outro (if used) featuring Level Up Lab branding
-- Recognizable thumbnail template incorporating the Level Up Lab logo
-- Consistent video description format including Level Up Lab tagline
-- Channel banner and profile image using official Level Up Lab logo (appropriate version)
+- Channel name: "Toolpath Studio"
+- Consistent intro/outro (if used) featuring Toolpath Studio branding
+- Recognizable thumbnail template incorporating the Toolpath Studio logo
+- Consistent video description format including Toolpath Studio tagline
+- Channel banner and profile image using official Toolpath Studio logo (appropriate version)
 - Playlist organization by topic/series
 
 ### Podcast
-- Podcast name: "Level Up Lab Podcast"
-- Professional cover art featuring the Level Up Lab logo
-- Consistent intro/outro music with Level Up Lab mention
+- Podcast name: "Toolpath Studio Podcast"
+- Professional cover art featuring the Toolpath Studio logo
+- Consistent intro/outro music with Toolpath Studio mention
 - Recognizable episode format
-- Show description emphasizing Level Up Lab brand and mission
-- Episode artwork consistency with Level Up Lab visual identity
+- Show description emphasizing Toolpath Studio brand and mission
+- Episode artwork consistency with Toolpath Studio visual identity
 
 ### Blog
-- Blog name: "Level Up Lab Blog"
-- Consistent header and layout featuring Level Up Lab logo
+- Blog name: "Toolpath Studio Blog"
+- Consistent header and layout featuring Toolpath Studio logo
 - Recognizable post format
-- Branded featured images using Level Up Lab colors and style
-- Consistent author bio mentioning Level Up Lab
-- Signature style and tone reflecting Level Up Lab values
+- Branded featured images using Toolpath Studio colors and style
+- Consistent author bio mentioning Toolpath Studio
+- Signature style and tone reflecting Toolpath Studio values
 
 ### Social Media
-- Profile name: "Level Up Lab" across all platforms
-- Consistent profile images using appropriate Level Up Lab logo version
-- Similar bios and descriptions emphasizing Level Up Lab mission
+- Profile name: "Toolpath Studio" across all platforms
+- Consistent profile images using appropriate Toolpath Studio logo version
+- Similar bios and descriptions emphasizing Toolpath Studio mission
 - Recognizable post formatting
-- Consistent hashtag usage (#LevelUpLab, #LevelUpYourSkills)
-- Cross-platform visual consistency with Level Up Lab branding
+- Consistent hashtag usage (#ToolpathStudio, #MakerJourney)
+- Cross-platform visual consistency with Toolpath Studio branding
 
 ## Content Branding
 
@@ -156,12 +156,12 @@ The hexagon theme helps create a unique, recognizable visual identity while main
 - [Community message]
 
 ### Taglines
-- "Level Up Lab - Where makers level up their skills"
-- "Learning, making, and leveling up together"
+- "Toolpath Studio - Where makers craft their journey"
+- "Learning, making, and crafting together"
 - Platform-specific variations can emphasize different aspects while maintaining the core brand
 
 ### Bio Template
-"Welcome to Level Up Lab! Join me on my journey learning [topics] and leveling up my maker skills. Find tutorials on YouTube, discussions on the podcast, and community on Discord and Facebook. Let's make things and level up together!"
+"Welcome to Toolpath Studio! Join me on my journey learning [topics] and crafting my maker skills. Find tutorials on YouTube, discussions on the podcast, and community on Discord and Facebook. Let's make things and craft our journeys together!"
 
 ## Platform Links
 

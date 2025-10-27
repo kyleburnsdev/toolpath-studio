@@ -1,6 +1,6 @@
-# Level Up Lab Hugo Theme
+# Toolpath Studio Hugo Theme
 
-A custom Hugo theme designed specifically for Level Up Lab with WCAG 2.1 AA accessibility compliance, semantic HTML5 markup, and brand-consistent styling.
+A custom Hugo theme designed specifically for Toolpath Studio with WCAG 2.1 AA accessibility compliance, semantic HTML5 markup, and brand-consistent styling.
 
 ## Features
 
@@ -21,7 +21,7 @@ A custom Hugo theme designed specifically for Level Up Lab with WCAG 2.1 AA acce
 - Responsive images with proper sizing
 
 ### Branding
-Follows Level Up Lab branding guidelines:
+Follows Toolpath Studio branding guidelines:
 - **Primary Color**: Marine Blue (#0078BF)
 - **Secondary Color**: Ash Gray (#9B9EA0)
 - **Accent Color**: Burnt Orange (#D9772B)
@@ -30,7 +30,7 @@ Follows Level Up Lab branding guidelines:
 - **Typography**: 
   - Headings: Montserrat (Bold/Semi-Bold)
   - Body: Inter (Regular/Medium)
-- **Logo**: Level Up Lab branding integrated in header
+- **Logo**: Toolpath Studio branding integrated in header
 
 ### Responsive Design
 - Mobile-first approach
@@ -41,7 +41,7 @@ Follows Level Up Lab branding guidelines:
 ### Layout Components
 
 #### Header
-- Sticky header with Level Up Lab logo
+- Sticky header with Toolpath Studio logo
 - Clean navigation menu
 - Responsive collapse on mobile
 
@@ -67,12 +67,12 @@ Follows Level Up Lab branding guidelines:
 
 ## Installation
 
-The theme is already included in the Level Up Lab repository at `themes/leveluplab/`.
+The theme is already included in the Toolpath Studio repository at `themes/toolpathstudio/`.
 
 To use this theme, ensure your `hugo.toml` contains:
 
 ```toml
-theme = 'leveluplab'
+theme = 'toolpathstudio'
 ```
 
 ## Configuration
@@ -164,8 +164,8 @@ Update font imports in `layouts/partials/head.html` and CSS variables.
 ### Logo
 
 Replace logos in `static/logos/png/`:
-- `level-up-lab-light.png` - For light backgrounds
-- `level-up-lab-dark.png` - For dark backgrounds
+- `toolpath-studio-light.png` - For light backgrounds
+- `toolpath-studio-dark.png` - For dark backgrounds
 
 ## Browser Support
 
@@ -190,7 +190,7 @@ MIT License - See LICENSE file for details
 
 ## Credits
 
-Designed and developed for Level Up Lab by Kyle Burns
+Designed and developed for Toolpath Studio by Kyle Burns
 - GitHub: https://github.com/kyleburnsdev
 - Site: https://kyleburnsdev.github.io/maker-learn-and-share/
 

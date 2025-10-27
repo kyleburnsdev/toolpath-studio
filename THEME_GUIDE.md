@@ -1,14 +1,14 @@
-# Level Up Lab Theme Guide
+# Toolpath Studio Theme Guide
 
-This guide provides information about the custom Hugo theme created for Level Up Lab.
+This guide provides information about the custom Hugo theme created for Toolpath Studio.
 
 ## Theme Overview
 
-The Level Up Lab theme (`themes/leveluplab/`) is a custom Hugo theme designed specifically for this blog with:
+The Toolpath Studio theme (`themes/toolpathstudio/`) is a custom Hugo theme designed specifically for this blog with:
 
 - **WCAG 2.1 AA Accessibility Compliance**: Ensuring the site is usable by everyone
 - **Semantic HTML5 Markup**: For better SEO and assistive technologies
-- **Brand Consistency**: Following the Level Up Lab branding guidelines
+- **Brand Consistency**: Following the Toolpath Studio branding guidelines
 - **Responsive Design**: Mobile-first approach that works on all devices
 
 ## Quick Start
@@ -16,7 +16,7 @@ The Level Up Lab theme (`themes/leveluplab/`) is a custom Hugo theme designed sp
 The theme is already configured in `hugo.toml`:
 
 ```toml
-theme = 'leveluplab'
+theme = 'toolpathstudio'
 ```
 
 To preview your site with the theme:
@@ -52,7 +52,7 @@ The theme implements WCAG 2.1 AA accessibility standards:
 
 ### 2. Branding
 
-The theme implements the Level Up Lab brand identity:
+The theme implements the Toolpath Studio brand identity:
 
 #### Colors
 - **Primary**: Marine Blue (#0078BF) - Links, headers, accents
@@ -68,7 +68,7 @@ The theme implements the Level Up Lab brand identity:
   - Highly legible sans-serif optimized for screen reading
 
 #### Logo
-- Level Up Lab logo displays in the header
+- Toolpath Studio logo displays in the header
 - Automatically uses the light version on light backgrounds
 - Logo is also used as the home page link
 
@@ -144,7 +144,7 @@ The theme uses a mobile-first approach:
 
 ### Changing Colors
 
-Edit `/themes/leveluplab/assets/css/main.css` and modify the CSS variables:
+Edit `/themes/toolpathstudio/assets/css/main.css` and modify the CSS variables:
 
 ```css
 :root {
@@ -158,8 +158,8 @@ Edit `/themes/leveluplab/assets/css/main.css` and modify the CSS variables:
 
 ### Changing Fonts
 
-1. Update the Google Fonts link in `/themes/leveluplab/layouts/partials/head.html`
-2. Update the font-family variables in `/themes/leveluplab/assets/css/main.css`:
+1. Update the Google Fonts link in `/themes/toolpathstudio/layouts/partials/head.html`
+2. Update the font-family variables in `/themes/toolpathstudio/assets/css/main.css`:
 
 ```css
 :root {
@@ -182,12 +182,12 @@ Hugo will automatically include it.
 
 To override a theme template without modifying the theme:
 
-1. Copy the template from `/themes/leveluplab/layouts/` 
+1. Copy the template from `/themes/toolpathstudio/layouts/` 
 2. Place it in `/layouts/` with the same path
 3. Modify as needed
 
 Example: To customize the footer, copy:
-- From: `/themes/leveluplab/layouts/partials/footer.html`
+- From: `/themes/toolpathstudio/layouts/partials/footer.html`
 - To: `/layouts/partials/footer.html`
 
 ## Content Guidelines
@@ -273,7 +273,7 @@ The theme is tested and supported on:
 
 Check `hugo.toml` contains:
 ```toml
-theme = 'leveluplab'
+theme = 'toolpathstudio'
 ```
 
 ### Styles Not Loading
@@ -285,26 +285,26 @@ theme = 'leveluplab'
 ### Logo Not Displaying
 
 Verify logo files exist at:
-- `/themes/leveluplab/static/logos/png/level-up-lab-light.png`
-- `/themes/leveluplab/static/logos/png/level-up-lab-dark.png`
+- `/themes/toolpathstudio/static/logos/png/toolpath-studio-light.png`
+- `/themes/toolpathstudio/static/logos/png/toolpath-studio-dark.png`
 
 ## Additional Resources
 
 - **Hugo Documentation**: https://gohugo.io/documentation/
 - **WCAG Guidelines**: https://www.w3.org/WAI/WCAG21/quickref/
 - **WebAIM**: https://webaim.org/ (Accessibility resources)
-- **Theme README**: `/themes/leveluplab/README.md`
+- **Theme README**: `/themes/toolpathstudio/README.md`
 
 ## Support
 
 For issues or questions about the theme:
-1. Check the theme README: `/themes/leveluplab/README.md`
+1. Check the theme README: `/themes/toolpathstudio/README.md`
 2. Review Hugo documentation
 3. Open an issue in the repository
 
 ## Credits
 
-Theme designed and developed by Kyle Burns for Level Up Lab
-- Following Level Up Lab branding guidelines
+Theme designed and developed by Kyle Burns for Toolpath Studio
+- Following Toolpath Studio branding guidelines
 - Implementing WCAG 2.1 AA accessibility standards
 - Using semantic HTML5 for SEO optimization

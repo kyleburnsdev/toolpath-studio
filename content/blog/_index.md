@@ -3,7 +3,7 @@ title: "Blog"
 description: "Written guides, project documentation, tutorials, and reflections on my maker journey"
 ---
 
-Welcome to the Level Up Lab blog! Here you'll find in-depth tutorials, project documentation, tool reviews, and personal reflections on various maker topics.
+Welcome to the Toolpath Studio blog! Here you'll find in-depth tutorials, project documentation, tool reviews, and personal reflections on various maker topics.
 
 ## Content Types
 

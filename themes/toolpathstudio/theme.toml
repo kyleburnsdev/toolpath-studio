@@ -1,10 +1,10 @@
-name = 'Level Up Lab Theme'
+name = 'Toolpath Studio Theme'
 license = 'MIT'
-licenselink = 'https://github.com/kyleburnsdev/level-up-lab/blob/main/LICENSE'
-description = 'A custom Hugo theme for Level Up Lab with WCAG accessibility, semantic markup, and branding guidelines'
+licenselink = 'https://github.com/kyleburnsdev/toolpath-studio/blob/main/LICENSE'
+description = 'A custom Hugo theme for Toolpath Studio with WCAG accessibility, semantic markup, and branding guidelines'
 
 # The home page of the theme, where the source can be found
-homepage = 'https://github.com/kyleburnsdev/level-up-lab'
+homepage = 'https://github.com/kyleburnsdev/toolpath-studio'
 
 # If you have a running demo of the theme
 demosite = 'https://kyleburnsdev.github.io/maker-learn-and-share/'

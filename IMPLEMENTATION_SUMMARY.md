@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Level Up Lab blog has been successfully configured with Hugo static site generator and is ready for content authoring and automated publishing to GitHub Pages.
+The Toolpath Studio blog has been successfully configured with Hugo static site generator and is ready for content authoring and automated publishing to GitHub Pages.
 
 ## What Was Implemented
 
@@ -26,7 +26,7 @@ The Level Up Lab blog has been successfully configured with Hugo static site gen
 ├── content/blog/
 │   ├── _index.md              # Blog section landing page
 │   └── posts/                 # Blog posts directory
-│       └── welcome-to-level-up-lab/  # Example post
+│       └── welcome-to-toolpath-studio/  # Example post
 │           └── index.md
 ├── archetypes/
 │   ├── blog.md                # Blog post template
@@ -107,7 +107,7 @@ The Level Up Lab blog has been successfully configured with Hugo static site gen
 ✅ **Created archetypes and sample content:**
 - `archetypes/blog.md` - Full blog post template with front matter
 - `archetypes/default.md` - Basic default template
-- `content/blog/posts/welcome-to-level-up-lab/index.md` - Example post demonstrating:
+- `content/blog/posts/welcome-to-toolpath-studio/index.md` - Example post demonstrating:
   - Proper front matter structure
   - Page bundle organization
   - Markdown formatting
