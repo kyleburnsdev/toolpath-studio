@@ -1,0 +1,72 @@
+baseURL = 'https://kyleburnsdev.github.io/maker-learn-and-share/'
+languageCode = 'en-us'
+title = 'Level Up Lab'
+theme = ''  # Add your theme name here when you choose one
+
+# Content directory
+contentDir = 'content'
+
+# Build configuration
+[build]
+  writeStats = true
+
+# Pagination
+paginate = 10
+paginatePath = 'page'
+
+# Permalinks
+[permalinks]
+  blog = '/blog/:year/:month/:slug/'
+
+# Taxonomies (categories and tags)
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+# Author information
+[params]
+  author = 'Kyle Burns'
+  description = 'A multi-channel content platform for learning and sharing knowledge on my journey as a "maker of things"'
+  
+  # Social links
+  [params.social]
+    youtube = ''  # Add your YouTube channel URL
+    facebook = ''  # Add your Facebook URL
+    discord = ''   # Add your Discord invite URL
+    github = 'https://github.com/kyleburnsdev'
+
+# Menu configuration
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+
+[[menu.main]]
+  name = 'Blog'
+  url = '/blog/'
+  weight = 2
+
+[[menu.main]]
+  name = 'About'
+  url = '/about/'
+  weight = 3
+
+# Markup configuration
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allow raw HTML in markdown
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = true
+    lineNumbersInTable = true
+
+# Output formats
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+  section = ['HTML', 'RSS']
+
+# RSS configuration
+[outputFormats.RSS]
+  mediaType = 'application/rss+xml'
+  baseName = 'feed'
