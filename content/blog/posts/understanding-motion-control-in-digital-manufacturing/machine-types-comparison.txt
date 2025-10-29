@@ -1,19 +1,25 @@
-Comparison Chart: Machine Types and Key Considerations
+# Comparison Chart: Machine Types and Key Considerations
 
-Description:
+## Purpose: 
+Provide at-a-glance comparison of how different machine types operate and what makes each unique despite shared motion control principles.
+
+## Dimensions: 
+1600px × 1200px (4:3 landscape ratio for detailed chart)
+
+## Description:
 A comprehensive comparison chart/infographic showing the five main digital manufacturing machine types and their key operational characteristics.
 
-Layout:
+## Layout:
 Matrix-style chart with machines across the top and characteristics down the left side.
 
-Column Headers (with icons):
+### Column Headers (with icons):
 1. Pen Plotter (icon: pen drawing)
 2. Vinyl Cutter (icon: blade cutting)
 3. 3D Printer (icon: layered object)
 4. Laser Engraver (icon: laser beam)
 5. CNC Mill (icon: rotating bit)
 
-Row Categories:
+### Row Categories:
 
 1. Primary Motion:
 - Pen Plotter: XY + pen up/down
@@ -21,42 +27,36 @@ Row Categories:
 - 3D Printer: XYZ + extrusion
 - Laser Engraver: XY + power modulation
 - CNC Mill: XYZ + rotational
-
 2. Tool Contact:
 - Pen Plotter: Direct (pen touches paper)
 - Vinyl Cutter: Direct (blade cuts)
 - 3D Printer: Direct (deposits material)
 - Laser Engraver: Non-contact (beam)
 - CNC Mill: Direct (bit removes material)
-
 3. Material Interaction:
 - Pen Plotter: Additive (adds ink)
 - Vinyl Cutter: Subtractive (removes cut shape)
 - 3D Printer: Additive (builds up)
 - Laser Engraver: Subtractive (ablates/burns)
 - CNC Mill: Subtractive (cuts away)
-
 4. Speed Range:
 - Pen Plotter: Fast (500-2000 mm/min)
 - Vinyl Cutter: Medium (300-800 mm/min)
 - 3D Printer: Slow-Medium (30-150 mm/min)
 - Laser Engraver: Very Fast (1000-10000 mm/min)
 - CNC Mill: Variable (100-3000 mm/min)
-
 5. Precision Level:
 - Pen Plotter: Medium (±0.1mm)
 - Vinyl Cutter: Medium (±0.1mm)
 - 3D Printer: Medium-High (±0.05mm)
 - Laser Engraver: High (±0.01mm)
 - CNC Mill: Very High (±0.001mm)
-
 6. Common Materials:
 - Pen Plotter: Paper, cardstock
 - Vinyl Cutter: Vinyl, paper, thin materials
 - 3D Printer: Plastics, resins
 - Laser Engraver: Wood, acrylic, leather, paper
 - CNC Mill: Metal, wood, plastic, composites
-
 7. Key Control Parameter:
 - Pen Plotter: Pen pressure (Z-axis)
 - Vinyl Cutter: Blade depth & force
@@ -64,21 +64,21 @@ Row Categories:
 - Laser Engraver: Power level (%)
 - CNC Mill: Spindle speed (RPM) & depth
 
-Visual Design:
+## Visual Design:
 - Each cell contains concise text or icons
-- Color coding by category (e.g., speed uses gradient from slow=red to fast=green)
+- Color coding by category (e.g., speed uses gradient from slow=red to fast=green) when it is needed to better convey the data
 - Icons or small illustrations for each machine type
 - Check marks or symbols for yes/no attributes
 - Clear grid lines separating cells
 - Header row with machine illustrations
 - Alternating row colors for readability
 
-Additional Elements:
+## Additional Elements:
 - Legend explaining color coding or symbols
 - Title at top: "Digital Manufacturing Machines: Key Characteristics"
 - Footer note: "Values are approximate and vary by specific model"
 
-Styling:
+## Styling:
 - Professional infographic design
 - Clean, modern aesthetic
 - On-brand fonts
@@ -102,7 +102,3 @@ Styling:
     - Accent Color: #D9772B (Burnt Orange)
     - Text Color: #2C2C2C (Charcoal Black)
     - Background Color: #F5F5F5 (Soft Gray)
-
-Purpose: Provide at-a-glance comparison of how different machine types operate and what makes each unique despite shared motion control principles.
-
-Dimensions: 1600px × 1200px (4:3 landscape ratio for detailed chart)
