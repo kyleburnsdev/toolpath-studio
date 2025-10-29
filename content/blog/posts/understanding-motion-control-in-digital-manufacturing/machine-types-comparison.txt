@@ -83,8 +83,12 @@ Styling:
 - Clean, modern aesthetic
 - Readable fonts (sans-serif for headers, clear body text)
 - High contrast for accessibility
-- Print and web-friendly colors
-- White or light neutral background
+- On-brand colors
+    - Primary Color: #0078BF (Marine Blue)
+    - Secondary Color: #9B9EA0 (Ash Gray)
+    - Accent Color: #D9772B (Burnt Orange)
+    - Text Color: #2C2C2C (Charcoal Black)
+    - Background Color: #F5F5F5 (Soft Gray)
 
 Purpose: Provide at-a-glance comparison of how different machine types operate and what makes each unique despite shared motion control principles.
 
