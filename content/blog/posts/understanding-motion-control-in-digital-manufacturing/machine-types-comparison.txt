@@ -81,7 +81,20 @@ Additional Elements:
 Styling:
 - Professional infographic design
 - Clean, modern aesthetic
-- Readable fonts (sans-serif for headers, clear body text)
+- On-brand fonts
+  - Headings: Montserrat
+    - Style: Bold or Semi-Bold
+    - Sizes: H1: 36-48px, H2: 28-32px, H3: 22-24px
+    - Color: Charcoal Black or Marine Blue (for emphasis)
+  - Body Text: Inter
+    - Style: Regular or Medium
+    - Size: 16-18px
+    - Line Height: 1.5-1.6
+    - Color: Charcoal Black
+  - Accent Text/UI Label: Inter
+    - Style: Medium or Semi-Bold
+    - Size: 14-16px
+    - Color: Burnt Orange or Ash Gray
 - High contrast for accessibility
 - On-brand colors
     - Primary Color: #0078BF (Marine Blue)
