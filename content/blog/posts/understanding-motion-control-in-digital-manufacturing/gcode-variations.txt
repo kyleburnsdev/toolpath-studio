@@ -1,0 +1,74 @@
+Diagram: G-code Variations Across Machines
+
+Description:
+A comparative diagram showing how the same basic movement task is accomplished with different G-code implementations across various machine types. The diagram should illustrate the variations in G-code dialects.
+
+Layout:
+Central concept box at top:
+- "Task: Move to position (100, 50) and activate tool"
+
+Below, 4-5 machine-specific implementations arranged in columns:
+
+Column 1 - GRBL CNC Mill:
+- Machine icon/illustration
+- G-code example:
+  ```
+  G90
+  G0 X100 Y50
+  M3 S12000
+  ```
+- Brief label: "GRBL (CNC)"
+
+Column 2 - Marlin 3D Printer:
+- Machine icon/illustration
+- G-code example:
+  ```
+  G90
+  G0 X100 Y50
+  M104 S200
+  ```
+- Brief label: "Marlin (3D Printer)"
+
+Column 3 - Laser Engraver:
+- Machine icon/illustration
+- G-code example:
+  ```
+  G90
+  G0 X100 Y50
+  M4 S80
+  ```
+- Brief label: "Laser Controller"
+
+Column 4 - Industrial Fanuc:
+- Machine icon/illustration
+- G-code example:
+  ```
+  G90 G00 X100. Y50.
+  M03 S1200
+  ```
+- Brief label: "Fanuc Controller"
+
+Bottom Section:
+Table or comparison chart showing:
+- Command differences (G0 vs G00)
+- M-code variations (M3 vs M03 vs M4)
+- Parameter format differences (S12000 vs S1200 vs S80)
+- Unit handling (implicit mm vs explicit decimal points)
+
+Visual Elements:
+- Highlighting or color coding to show differences
+- Annotations pointing out key variations
+- Icons or small illustrations of each machine type
+- Code displayed in monospace font with subtle syntax highlighting
+
+Styling:
+- Technical documentation style
+- Clean, organized layout
+- Consistent spacing and alignment
+- Color scheme: gray backgrounds for code blocks, accent colors for highlighting differences
+- Clear hierarchical typography
+- Professional reference guide appearance
+
+Purpose: Illustrate that while G-code is standardized, implementations vary by machine and controller, requiring users to consult specific documentation.
+
+Dimensions: 1400px × 1000px (landscape orientation for side-by-side comparison)

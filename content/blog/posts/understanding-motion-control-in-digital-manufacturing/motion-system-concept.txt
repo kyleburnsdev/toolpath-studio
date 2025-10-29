@@ -1,0 +1,36 @@
+Diagram: Motion System Concept
+
+Description:
+A clean, educational diagram illustrating the fundamental components of a motion control system for digital fabrication. The diagram should show:
+
+Main Components:
+1. Coordinate System: A 3D Cartesian coordinate system with clearly labeled X, Y, and Z axes shown with arrows and labels.
+
+2. Tool Position: A generic tool head (simplified geometric shape like a cylinder or cone) positioned within the coordinate space.
+
+3. Motion Arrows: Directional arrows showing possible movement along each axis in both positive and negative directions.
+
+4. Work Area: A subtle rectangular boundary representing the machine's working envelope/build volume.
+
+5. Origin Point: Clearly marked origin (0,0,0) with distinctive marker or label.
+
+Additional Elements:
+- Call-out boxes or labels explaining:
+  - "X-Axis: Left-Right Movement"
+  - "Y-Axis: Front-Back Movement"
+  - "Z-Axis: Up-Down Movement"
+  - "Tool Position: Precisely controlled in 3D space"
+
+- Simple annotation showing example coordinates like (50, 75, 10)
+
+Styling:
+- Clean, technical illustration style
+- Blue and gray color scheme with accent colors for axes (red=X, green=Y, blue=Z following standard convention)
+- Clear, readable sans-serif font for labels
+- Minimal shading, emphasis on clarity over realism
+- Isometric or 3/4 perspective view to show all three axes clearly
+- White or light gray background
+
+Purpose: Help readers visualize the basic 3D coordinate system used by all digital fabrication machines.
+
+Dimensions: 800px × 600px (4:3 ratio)

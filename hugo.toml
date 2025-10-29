@@ -1,4 +1,4 @@
-baseURL = 'https://kyleburnsdev.github.io/maker-learn-and-share/'
+baseURL = 'https://kyleburnsdev.github.io/toolpath-studio/'
 languageCode = 'en-us'
 title = 'Toolpath Studio'
 theme = 'toolpathstudio'
