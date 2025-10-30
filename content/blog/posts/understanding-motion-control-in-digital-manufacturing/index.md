@@ -1,12 +1,12 @@
 ---
 title: "Understanding Motion Control in Digital Manufacturing"
 date: 2025-10-29T10:00:00-05:00
-draft: true
+draft: false
 description: "Explore the fundamental concepts that unite pen plotters, vinyl cutters, 3D printers, laser engravers, and CNC mills through motion control systems, Logo programming, and G-code basics."
 categories: ["Tutorials"]
 tags: ["cnc", "3d-printing", "laser-engraving", "vinyl-cutting", "pen-plotter", "g-code", "motion-control", "fundamentals"]
 author: "Kyle Burns"
-featured_image: "featured-machines.jpg"
+featured_image: "featured-machines.png"
 ---
 
 ## Introduction
@@ -17,7 +17,7 @@ Yet beneath their specialized exteriors lies a remarkable commonality: they all 
 
 Understanding these shared fundamentals provides a powerful lens for learning digital fabrication. Once you grasp how motion systems work, you can transfer that knowledge across different machines and technologies. This article explores those core concepts, using the Logo programming language to illustrate motion principles in an accessible way, then introducing G-code—the language that actually controls most digital fabrication equipment.
 
-![Various digital manufacturing machines](featured-machines.jpg)
+![Various digital manufacturing machines](featured-machines.png)
 
 ## The Universal Language of Motion
 
@@ -29,8 +29,6 @@ Despite their differences, all digital fabrication machines solve the same basic
 2. **Tool Control**: Activating, deactivating, or modulating the tool's effect on the material
 
 A pen plotter moves a pen across paper (X and Y axes) and lifts or lowers it (Z axis or pen up/down). A 3D printer moves a print head in three dimensions while controlling filament extrusion. A CNC mill moves a spinning bit through space while controlling cutting depth and speed. The specifics differ, but the underlying motion control concepts remain consistent.
-
-![Motion system concept diagram](motion-system-concept.jpg)
 
 ### Axes of Movement
 
@@ -67,8 +65,6 @@ Before diving into the technical complexity of G-code, let's explore motion conc
 Logo was created in 1967 by Wally Feurzeig, Seymour Papert, and Cynthia Solomon at Bolt, Beranek and Newman (BBN). The language is best known for "turtle graphics," where you control a virtual turtle that moves around the screen, drawing as it goes. The turtle has a position, heading (direction), and a pen that can be up or down.
 
 This turtle metaphor maps remarkably well to digital fabrication concepts. The turtle's position corresponds to tool position. Its heading matches tool direction. The pen state (up/down) parallels tool activation (on/off, engaged/disengaged).
-
-![Logo turtle graphics example](logo-turtle-example.jpg)
 
 ### Basic Logo Commands
 
@@ -193,8 +189,6 @@ The Logo turtle graphics model translates directly to physical fabrication:
 - **CNC mill**: The turtle represents the cutting bit position. `PENDOWN` might mean engaging depth. `FORWARD` moves the mill head.
 
 This conceptual mapping reveals why Logo serves as such an effective teaching tool for motion control. The commands mirror real machine operations while remaining easy to understand and experiment with.
-
-![Logo to machine mapping diagram](logo-machine-mapping.jpg)
 
 ### Limitations of the Logo Model
 
@@ -426,8 +420,6 @@ While G-code has standards (RS-274D, ISO 6983), individual machine manufacturers
 
 Always consult your specific machine's documentation for supported commands and parameters. What works on a GRBL-based CNC mill may differ from an industrial Fanuc controller or a Marlin-based 3D printer.
 
-![G-code variations across machines](gcode-variations.jpg)
-
 ## Bridging Concepts to Real Machines
 
 ### From Logo to G-code: A Comparison
@@ -529,7 +521,7 @@ CNC mills represent the most complex application, with full 3-axis (or more) con
 - Tool change sequences (if multi-tool)
 - Safety zones and crash avoidance
 
-![Machine types comparison](machine-types-comparison.jpg)
+{{< comparison-chart file="machine-type-comparison-data.yaml" >}}
 
 ## The Learning Path Forward
 
@@ -621,13 +613,6 @@ What will you create with this knowledge? The toolpath is yours to define.
 - G-code simulators (CAMotics, NCViewer)
 - CAM software (Fusion 360, Carbide Create, others)
 - Machine controller firmware (GRBL, Marlin, LinuxCNC)
-
-## Related Content
-
-- **Coming Soon**: Hands-on vinyl cutter project tutorial
-- **Coming Soon**: Introduction to Fusion 360 CAM for CNC milling
-- **YouTube**: Video demonstrations of Logo concepts and G-code simulation
-- **Podcast**: Deep-dive interview on motion control systems with experienced machinists
 
 ## Further Reading
 

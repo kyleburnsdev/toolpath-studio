@@ -475,6 +475,122 @@ footer a:hover {
 }
 
 /* ===========================
+   Tabular Data Display
+   =========================== */
+  
+.comparison-table {
+    width: 100%;
+    max-width: 1600px;
+    border-collapse: collapse;
+    margin: auto;
+    overflow-x: auto;
+    display: block;
+}
+.comparison-table th, .comparison-table td {
+    border: 1px solid var(--color-secondary);
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Sticky header row */
+.comparison-table thead th {
+  position: sticky;
+    top: 0;
+    z-index: 3;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Sticky first column */
+.comparison-table th[scope="row"] {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    box-shadow: 2px 0 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Top-left corner cell - needs highest z-index */
+.comparison-table thead th:first-child {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.comparison-table th {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.comparison-table tbody tr:nth-child(even) {
+    background-color: var(--color-white);
+}
+.comparison-table tbody tr:nth-child(odd) {
+    background-color: var(--color-background);
+}
+.icon {
+    display: block;
+    margin: 0 auto 8px;
+    width: 32px;
+    height: 32px;
+}
+
+/* icons */
+.icon-pen::before {
+    font-family: 'Material Icons';
+    content: 'edit'; /* Material icon name for pen plotter */
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.icon-vinyl::before {
+    font-family: 'Material Icons';
+    content: 'content_cut'; /* Vinyl cutter */
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.icon-3dprinter::before {
+    font-family: 'Material Icons';
+    content: 'view_in_ar'; /* 3D printer */
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.icon-laser::before {
+    font-family: 'Material Icons';
+    content: 'bolt'; /* Laser engraver */
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.icon-cnc::before {
+    font-family: 'Material Icons';
+    content: 'precision_manufacturing'; /* CNC mill */
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+
+/* Responsive scroll hint */
+@media (max-width: 768px) {
+    .comparison-table th, .comparison-table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+/* High contrast focus for keyboard navigation */
+.comparison-table td:focus, .comparison-table th:focus {
+    outline: 3px solid #D9772B;
+}
+
+
+/* ===========================
    Responsive Design
    =========================== */
 

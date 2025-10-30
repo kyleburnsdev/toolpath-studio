@@ -1,0 +1,42 @@
+{{ $file := .Get "file" }}
+{{ $data := .Page.Resources.GetMatch $file | transform.Unmarshal }}
+
+<div class="comparison-section">
+    <h2 class="chart-title">{{ $data.title }}</h2>
+    <div role="region" aria-label="{{ $data.title }}" tabindex="0">
+        <table class="comparison-table" role="table">
+            <thead>
+                <tr>
+                    <th scope="col">&nbsp;</th>
+                    {{ range $data.columns }}
+                        <th scope="col" role="columnheader">
+                            {{ if and (isset . "icon") (ne .icon "") }}
+                            <span class="icon-{{ .icon }}" aria-hidden="true"></span>
+                            {{ end }}
+                            {{ .title }}
+                        </th>
+                    {{ end }}
+                </tr>
+            </thead>
+            <tbody>
+                {{
+                    range $data.rows
+                }}
+                    <tr>
+                        <th scope="row" role="rowheader">{{ .label }}</th>
+                        {{ range .values }}<td role="cell">{{ . }}</td>{{ end }}
+                    </tr>   
+                {{ end }}
+            </tbody>
+            
+            {{ if and (isset $data "footer") (ne $data.footer "") }}
+            <tfoot role="rowgroup" aria-label="Table footer">
+                <tr>
+                    <td colspan="{{ add (len $data.columns) 1 }}" role="cell" aria-label="Footer note">{{ $data.footer }}</td>
+                </tr>
+            </tfoot>
+            {{ end }}
+
+        </table>
+    </div>
+</div>

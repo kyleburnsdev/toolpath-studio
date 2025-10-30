@@ -1,0 +1,31 @@
+title: "Digital Manufacturing Machine Type Comparison"
+
+columns:
+  - title: "Pen Plotter"
+    icon: "pen"
+  - title: "Vinyl Cutter"
+    icon: "vinyl"
+  - title: "3D Printer"
+    icon: "3dprinter"
+  - title: "Laser Engraver"
+    icon: "laser"
+  - title: "CNC Mill"
+    icon: "cnc"
+
+rows:
+  - label: "Primary Motion"
+    values: ["XY + pen up/down", "XY + blade pressure", "XYZ + extrusion", "XY + power modulation", "XYZ + rotational"]
+  - label: "Tool Contact"
+    values: ["Direct", "Direct", "Direct", "Non-contact", "Direct"]
+  - label: "Material Interaction"
+    values: ["Additive", "Subtractive", "Additive", "Subtractive", "Subtractive"]
+  - label: "Speed Range"
+    values: ["Fast", "Medium", "Slow-Medium", "Very Fast", "Variable"]
+  - label: "Precision Level"
+    values: ["±0.1mm", "±0.1mm", "±0.05mm", "±0.01mm", "±0.001mm"]
+  - label: "Common Materials"
+    values: ["Paper, cardstock", "Vinyl, paper", "Plastics, resins", "Wood, acrylic, leather", "Metal, wood, plastic"]
+  - label: "Key Control Parameter"
+    values: ["Pen pressure", "Blade depth & force", "Extrusion rate", "Power level", "Spindle speed & depth"]
+
+    footer: "Values are approximate and vary by specific model."
